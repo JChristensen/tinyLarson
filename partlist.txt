@@ -1,0 +1,45 @@
+Partlist
+
+Exported from tinyLarson.sch at 5/22/2019 8:32 PM
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                Package           Library  Sheet
+
+B1       2xAA           BATTERY-2AAEAGLE      EAGLE-12BH321P-GR _jc      1
+C1       100nF          C-USM0805             M0805             _jc      1
+C2       10uF           C-USM0805             M0805             _jc      1
+C3       10uF           C-USM0805             M0805             _jc      1
+D0       Yel            LEDD0805              D0805             _jc      1
+D1       Yel            LEDD0805              D0805             _jc      1
+D2       Yel            LEDD0805              D0805             _jc      1
+D3       Yel            LEDD0805              D0805             _jc      1
+D4       Yel            LEDD0805              D0805             _jc      1
+D5       Yel            LEDD0805              D0805             _jc      1
+D6       Yel            LEDD0805              D0805             _jc      1
+D7       Yel            LEDD0805              D0805             _jc      1
+D8       Red            LEDD0805              D0805             _jc      1
+ICSP     ICSP           AVR_SPI_PRG_62X3_LOCK 2X3_LOCK          _jc      1
+J1       Ext Bat        OST-TB-23.5MM         OST-TB-2-3.5MM    _jc      1
+JP1      CAL            M02LOCK               1X02_LOCK         SparkFun 1
+L1       4.7uH          INDUCTORC1210K        C1210K            _jc      1
+R0       1K             R-US_M0805            M0805             _jc      1
+R1       1K             R-US_M0805            M0805             _jc      1
+R2       1K             R-US_M0805            M0805             _jc      1
+R3       1K             R-US_M0805            M0805             _jc      1
+R4       1K             R-US_M0805            M0805             _jc      1
+R5       1K             R-US_M0805            M0805             _jc      1
+R6       1K             R-US_M0805            M0805             _jc      1
+R7       1K             R-US_M0805            M0805             _jc      1
+R8       1K             R-US_M0805            M0805             _jc      1
+R9       10K            R-US_M0805            M0805             _jc      1
+R10      976K           R-US_M0805            M0805             _jc      1
+R11      309K           R-US_M0805            M0805             _jc      1
+R12      249K           R-US_M0805            M0805             _jc      1
+S1       S1             10-XXOCT              B3F-10XXOCT       _jc      1
+S2       RESET          10-XXOCT              B3F-10XXOCT       _jc      1
+SJ1      5V             SJ                    SJ                jumper   1
+U1       ATtiny84A-SSU  ATTINYX4SO14          SO14              _jc      1
+U2       MCP1640D       MCP1640               SOT23-6           _jc      1
