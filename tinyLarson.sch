@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,19 +39,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -33210,176 +33210,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <rectangle x1="9.3649" y1="19.0055" x2="11.8907" y2="19.0233" layer="200"/>
 <rectangle x1="9.3649" y1="19.0233" x2="11.8907" y2="19.0411" layer="200"/>
 </package>
-<package name="OSHW_10X1000_NOTEXT">
-<wire x1="12.1158" y1="7.1628" x2="9.7028" y2="1.3462" width="0.254" layer="21"/>
-<wire x1="9.7028" y1="1.3462" x2="8.382" y2="2.1082" width="0.254" layer="21"/>
-<wire x1="8.382" y1="2.1082" x2="5.334" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="5.334" y1="0.0254" x2="2.9972" y2="2.3622" width="0.254" layer="21"/>
-<wire x1="2.9972" y1="2.3622" x2="5.1308" y2="5.5118" width="0.254" layer="21"/>
-<wire x1="5.1308" y1="5.5118" x2="3.81" y2="8.8392" width="0.254" layer="21" curve="-19.434368"/>
-<wire x1="3.81" y1="8.8392" x2="0.0254" y2="9.5504" width="0.254" layer="21"/>
-<wire x1="0.0254" y1="9.5504" x2="0.0254" y2="12.8778" width="0.254" layer="21"/>
-<wire x1="0.0254" y1="12.8778" x2="3.8862" y2="13.589" width="0.254" layer="21"/>
-<wire x1="3.8862" y1="13.589" x2="5.2578" y2="16.7386" width="0.254" layer="21" curve="-18.899701"/>
-<wire x1="5.2578" y1="16.7386" x2="2.9972" y2="20.0406" width="0.254" layer="21"/>
-<wire x1="2.9972" y1="20.0406" x2="5.334" y2="22.3774" width="0.254" layer="21"/>
-<wire x1="5.334" y1="22.3774" x2="8.6614" y2="20.1168" width="0.254" layer="21"/>
-<wire x1="8.6614" y1="20.1168" x2="11.7602" y2="21.3614" width="0.254" layer="21" curve="-18.029416"/>
-<wire x1="11.7602" y1="21.3614" x2="12.5222" y2="25.3746" width="0.254" layer="21"/>
-<wire x1="12.5222" y1="25.3746" x2="15.8242" y2="25.3746" width="0.254" layer="21"/>
-<wire x1="15.8242" y1="25.3746" x2="16.5608" y2="21.3868" width="0.254" layer="21"/>
-<wire x1="16.5608" y1="21.3868" x2="19.6596" y2="20.1168" width="0.254" layer="21" curve="-18.239355"/>
-<wire x1="19.6596" y1="20.1168" x2="23.0124" y2="22.3774" width="0.254" layer="21"/>
-<wire x1="23.0124" y1="22.3774" x2="25.3492" y2="20.0406" width="0.254" layer="21"/>
-<wire x1="25.3492" y1="20.0406" x2="23.114" y2="16.764" width="0.254" layer="21"/>
-<wire x1="23.114" y1="16.764" x2="24.4856" y2="13.589" width="0.254" layer="21" curve="-18.8999"/>
-<wire x1="24.4856" y1="13.589" x2="28.321" y2="12.8778" width="0.254" layer="21"/>
-<wire x1="28.321" y1="12.8778" x2="28.321" y2="9.5504" width="0.254" layer="21"/>
-<wire x1="28.321" y1="9.5504" x2="24.5364" y2="8.8392" width="0.254" layer="21"/>
-<wire x1="24.5364" y1="8.8392" x2="23.2156" y2="5.5118" width="0.254" layer="21" curve="-19.212623"/>
-<wire x1="23.2156" y1="5.5118" x2="25.3492" y2="2.3622" width="0.254" layer="21"/>
-<wire x1="25.3492" y1="2.3622" x2="23.0124" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="23.0124" y1="0.0254" x2="19.939" y2="2.1336" width="0.254" layer="21"/>
-<wire x1="19.939" y1="2.1336" x2="18.6182" y2="1.3716" width="0.254" layer="21"/>
-<wire x1="18.6182" y1="1.3716" x2="16.2052" y2="7.1628" width="0.254" layer="21"/>
-<wire x1="12.1158" y1="7.1628" x2="16.2052" y2="7.1374" width="0.254" layer="21" curve="-304.652273"/>
-</package>
-<package name="OSHW_10X200_NOTEXT">
-<wire x1="2.4384" y1="1.4224" x2="1.9304" y2="0.2794" width="0.254" layer="21"/>
-<wire x1="1.9304" y1="0.2794" x2="1.6764" y2="0.4318" width="0.254" layer="21"/>
-<wire x1="1.6764" y1="0.4318" x2="1.0668" y2="0" width="0.254" layer="21"/>
-<wire x1="1.0668" y1="0" x2="0.6096" y2="0.4826" width="0.254" layer="21"/>
-<wire x1="0.6096" y1="0.4826" x2="1.016" y2="1.0922" width="0.254" layer="21"/>
-<wire x1="0.762" y1="1.778" x2="0" y2="1.905" width="0.254" layer="21"/>
-<wire x1="0" y1="1.905" x2="0" y2="2.5654" width="0.254" layer="21"/>
-<wire x1="0" y1="2.5654" x2="0.762" y2="2.7178" width="0.254" layer="21"/>
-<wire x1="1.0414" y1="3.3528" x2="0.5842" y2="4.0132" width="0.254" layer="21"/>
-<wire x1="0.5842" y1="4.0132" x2="1.0668" y2="4.4704" width="0.254" layer="21"/>
-<wire x1="1.0668" y1="4.4704" x2="1.7272" y2="4.0132" width="0.254" layer="21"/>
-<wire x1="2.3622" y1="4.2672" x2="2.4892" y2="5.08" width="0.254" layer="21"/>
-<wire x1="2.4892" y1="5.08" x2="3.175" y2="5.08" width="0.254" layer="21"/>
-<wire x1="3.175" y1="5.08" x2="3.302" y2="4.2672" width="0.254" layer="21"/>
-<wire x1="3.937" y1="4.0132" x2="4.5974" y2="4.4704" width="0.254" layer="21"/>
-<wire x1="4.5974" y1="4.4704" x2="5.08" y2="4.0132" width="0.254" layer="21"/>
-<wire x1="5.08" y1="4.0132" x2="4.6228" y2="3.3528" width="0.254" layer="21"/>
-<wire x1="4.9022" y1="2.7178" x2="5.6642" y2="2.5654" width="0.254" layer="21"/>
-<wire x1="5.6642" y1="2.5654" x2="5.6642" y2="1.905" width="0.254" layer="21"/>
-<wire x1="5.6642" y1="1.905" x2="4.9022" y2="1.778" width="0.254" layer="21"/>
-<wire x1="4.6482" y1="1.0922" x2="5.08" y2="0.4826" width="0.254" layer="21"/>
-<wire x1="5.08" y1="0.4826" x2="4.5974" y2="0" width="0.254" layer="21"/>
-<wire x1="4.5974" y1="0" x2="3.9878" y2="0.4318" width="0.254" layer="21"/>
-<wire x1="3.9878" y1="0.4318" x2="3.7338" y2="0.2794" width="0.254" layer="21"/>
-<wire x1="3.7338" y1="0.2794" x2="3.2512" y2="1.4224" width="0.254" layer="21"/>
-<wire x1="2.4384" y1="1.4478" x2="3.2512" y2="1.4478" width="0.254" layer="21" curve="-308.267286"/>
-<wire x1="1.0245" y1="1.1004" x2="0.7637" y2="1.774" width="0.254" layer="21" curve="-19.673848"/>
-<wire x1="0.7779" y1="2.7179" x2="1.0435" y2="3.3392" width="0.254" layer="21" curve="-18.371859"/>
-<wire x1="1.736" y1="4.0223" x2="2.3432" y2="4.2689" width="0.254" layer="21" curve="-17.83212"/>
-<wire x1="3.3155" y1="4.2736" x2="3.9464" y2="4.0175" width="0.254" layer="21" curve="-18.449318"/>
-<wire x1="4.6199" y1="3.3487" x2="4.8997" y2="2.7179" width="0.254" layer="21" curve="-19.303177"/>
-<wire x1="4.9045" y1="1.7692" x2="4.6484" y2="1.0909" width="0.254" layer="21" curve="-20.344696"/>
-</package>
-<package name="OSHW_10X350_NOTEXT">
-<wire x1="4.2418" y1="2.5146" x2="3.4036" y2="0.4826" width="0.254" layer="21"/>
-<wire x1="3.4036" y1="0.4826" x2="2.9464" y2="0.7366" width="0.254" layer="21"/>
-<wire x1="2.9464" y1="0.7366" x2="1.8796" y2="0" width="0.254" layer="21"/>
-<wire x1="1.8796" y1="0" x2="1.0414" y2="0.8382" width="0.254" layer="21"/>
-<wire x1="1.0414" y1="0.8382" x2="1.8034" y2="1.9304" width="0.254" layer="21"/>
-<wire x1="1.3208" y1="3.0988" x2="0" y2="3.3528" width="0.254" layer="21"/>
-<wire x1="0" y1="3.3528" x2="0" y2="4.4958" width="0.254" layer="21"/>
-<wire x1="0" y1="4.4958" x2="1.3462" y2="4.7498" width="0.254" layer="21"/>
-<wire x1="1.8288" y1="5.8674" x2="1.0414" y2="7.0104" width="0.254" layer="21"/>
-<wire x1="1.0414" y1="7.0104" x2="1.8796" y2="7.8232" width="0.254" layer="21"/>
-<wire x1="1.8796" y1="7.8232" x2="3.0226" y2="7.0358" width="0.254" layer="21"/>
-<wire x1="4.1148" y1="7.493" x2="4.3688" y2="8.8646" width="0.254" layer="21"/>
-<wire x1="4.3688" y1="8.8646" x2="5.5372" y2="8.8646" width="0.254" layer="21"/>
-<wire x1="5.5372" y1="8.8646" x2="5.7912" y2="7.493" width="0.254" layer="21"/>
-<wire x1="6.8834" y1="7.0358" x2="8.0518" y2="7.8232" width="0.254" layer="21"/>
-<wire x1="8.0518" y1="7.8232" x2="8.8646" y2="7.0104" width="0.254" layer="21"/>
-<wire x1="8.8646" y1="7.0104" x2="8.0772" y2="5.8674" width="0.254" layer="21"/>
-<wire x1="8.5598" y1="4.7498" x2="9.906" y2="4.4958" width="0.254" layer="21"/>
-<wire x1="9.906" y1="4.4958" x2="9.906" y2="3.3528" width="0.254" layer="21"/>
-<wire x1="9.906" y1="3.3528" x2="8.5852" y2="3.0988" width="0.254" layer="21"/>
-<wire x1="8.128" y1="1.9304" x2="8.8646" y2="0.8382" width="0.254" layer="21"/>
-<wire x1="8.8646" y1="0.8382" x2="8.0518" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="8.0518" y1="0.0254" x2="6.985" y2="0.7366" width="0.254" layer="21"/>
-<wire x1="6.985" y1="0.7366" x2="6.5278" y2="0.4826" width="0.254" layer="21"/>
-<wire x1="6.5278" y1="0.4826" x2="5.6896" y2="2.5146" width="0.254" layer="21"/>
-<wire x1="1.8034" y1="1.9304" x2="1.3462" y2="3.0988" width="0.254" layer="21" curve="-19.550442"/>
-<wire x1="1.3462" y1="4.7498" x2="1.8288" y2="5.8674" width="0.254" layer="21" curve="-18.924644"/>
-<wire x1="3.0226" y1="7.0358" x2="4.1148" y2="7.4676" width="0.254" layer="21" curve="-18.163939"/>
-<wire x1="5.7912" y1="7.4676" x2="6.858" y2="7.0358" width="0.254" layer="21" curve="-17.87913"/>
-<wire x1="8.0772" y1="5.8674" x2="8.5598" y2="4.7498" width="0.254" layer="21" curve="-18.854515"/>
-<wire x1="8.5852" y1="3.0988" x2="8.128" y2="1.9304" width="0.254" layer="21" curve="-19.550442"/>
-<wire x1="4.2418" y1="2.5146" x2="5.6896" y2="2.5146" width="0.254" layer="21" curve="-303.462974"/>
-</package>
-<package name="OSHW_10X500_NOTEXT">
-<wire x1="6.0452" y1="3.5814" x2="4.8514" y2="0.6858" width="0.254" layer="21"/>
-<wire x1="4.8514" y1="0.6858" x2="4.191" y2="1.0668" width="0.254" layer="21"/>
-<wire x1="4.191" y1="1.0668" x2="2.667" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="2.667" y1="0.0254" x2="1.4986" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="1.4986" y1="1.1938" x2="2.5654" y2="2.7686" width="0.254" layer="21"/>
-<wire x1="2.5654" y1="2.7686" x2="1.905" y2="4.4196" width="0.254" layer="21" curve="-19.514051"/>
-<wire x1="1.905" y1="4.4196" x2="0" y2="4.7752" width="0.254" layer="21"/>
-<wire x1="0" y1="4.7752" x2="0" y2="6.4262" width="0.254" layer="21"/>
-<wire x1="0" y1="6.4262" x2="1.9304" y2="6.8072" width="0.254" layer="21"/>
-<wire x1="1.9304" y1="6.8072" x2="2.6162" y2="8.382" width="0.254" layer="21" curve="-18.62956"/>
-<wire x1="2.6162" y1="8.382" x2="1.4986" y2="10.0076" width="0.254" layer="21"/>
-<wire x1="1.4986" y1="10.0076" x2="2.667" y2="11.176" width="0.254" layer="21"/>
-<wire x1="2.667" y1="11.176" x2="4.3434" y2="10.0584" width="0.254" layer="21"/>
-<wire x1="4.3434" y1="10.0584" x2="5.8674" y2="10.668" width="0.254" layer="21" curve="-17.898916"/>
-<wire x1="5.8674" y1="10.6934" x2="6.2484" y2="12.6746" width="0.254" layer="21"/>
-<wire x1="6.2484" y1="12.6746" x2="7.8994" y2="12.6746" width="0.254" layer="21"/>
-<wire x1="7.8994" y1="12.6746" x2="8.2804" y2="10.6934" width="0.254" layer="21"/>
-<wire x1="8.2804" y1="10.6934" x2="9.8298" y2="10.0584" width="0.254" layer="21" curve="-18.098861"/>
-<wire x1="9.8298" y1="10.0584" x2="11.5062" y2="11.2014" width="0.254" layer="21"/>
-<wire x1="11.5062" y1="11.2014" x2="12.6746" y2="10.0076" width="0.254" layer="21"/>
-<wire x1="12.6746" y1="10.0076" x2="11.557" y2="8.382" width="0.254" layer="21"/>
-<wire x1="11.557" y1="8.382" x2="12.2428" y2="6.8072" width="0.254" layer="21" curve="-18.775953"/>
-<wire x1="12.2428" y1="6.8072" x2="14.1732" y2="6.4262" width="0.254" layer="21"/>
-<wire x1="14.1732" y1="6.4262" x2="14.1732" y2="4.7752" width="0.254" layer="21"/>
-<wire x1="14.1732" y1="4.7752" x2="12.2682" y2="4.4196" width="0.254" layer="21"/>
-<wire x1="12.2682" y1="4.4196" x2="11.6078" y2="2.7432" width="0.254" layer="21" curve="-19.70616"/>
-<wire x1="11.6078" y1="2.7432" x2="12.6746" y2="1.1684" width="0.254" layer="21"/>
-<wire x1="12.6746" y1="1.1684" x2="11.5062" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="11.5062" y1="0.0254" x2="9.9822" y2="1.0668" width="0.254" layer="21"/>
-<wire x1="9.9822" y1="1.0668" x2="9.3218" y2="0.6858" width="0.254" layer="21"/>
-<wire x1="9.3218" y1="0.6858" x2="8.1026" y2="3.5814" width="0.254" layer="21"/>
-<wire x1="6.0452" y1="3.5814" x2="8.1026" y2="3.6068" width="0.254" layer="21" curve="-305.419449"/>
-</package>
-<package name="OSHW_10X750_NOTEXT">
-<wire x1="9.0932" y1="5.3848" x2="7.2898" y2="1.016" width="0.254" layer="21"/>
-<wire x1="7.2898" y1="1.016" x2="6.2992" y2="1.5748" width="0.254" layer="21"/>
-<wire x1="6.2992" y1="1.5748" x2="4.0132" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="4.0132" y1="0.0254" x2="2.2352" y2="1.778" width="0.254" layer="21"/>
-<wire x1="2.2352" y1="1.778" x2="3.8354" y2="4.1402" width="0.254" layer="21"/>
-<wire x1="3.8354" y1="4.1402" x2="2.8448" y2="6.6294" width="0.254" layer="21" curve="-19.510952"/>
-<wire x1="2.8448" y1="6.6294" x2="0" y2="7.1628" width="0.254" layer="21"/>
-<wire x1="0" y1="7.1628" x2="0" y2="9.652" width="0.254" layer="21"/>
-<wire x1="0" y1="9.652" x2="2.921" y2="10.2108" width="0.254" layer="21"/>
-<wire x1="2.921" y1="10.2108" x2="3.9116" y2="12.573" width="0.254" layer="21" curve="-18.759575"/>
-<wire x1="3.9116" y1="12.573" x2="2.2352" y2="15.0368" width="0.254" layer="21"/>
-<wire x1="2.2352" y1="15.0368" x2="4.0132" y2="16.7894" width="0.254" layer="21"/>
-<wire x1="4.0132" y1="16.7894" x2="6.5024" y2="15.0876" width="0.254" layer="21"/>
-<wire x1="6.5024" y1="15.0876" x2="8.8392" y2="16.0528" width="0.254" layer="21" curve="-18.180554"/>
-<wire x1="8.8392" y1="16.0528" x2="9.3726" y2="19.0246" width="0.254" layer="21"/>
-<wire x1="9.3726" y1="19.0246" x2="11.8872" y2="19.0246" width="0.254" layer="21"/>
-<wire x1="11.8872" y1="19.0246" x2="12.4206" y2="16.0274" width="0.254" layer="21"/>
-<wire x1="12.4206" y1="16.0274" x2="14.7574" y2="15.0876" width="0.254" layer="21" curve="-18.180554"/>
-<wire x1="14.7574" y1="15.0876" x2="17.2466" y2="16.7894" width="0.254" layer="21"/>
-<wire x1="17.2466" y1="16.7894" x2="18.9992" y2="15.0368" width="0.254" layer="21"/>
-<wire x1="18.9992" y1="15.0368" x2="17.3228" y2="12.5476" width="0.254" layer="21"/>
-<wire x1="17.3228" y1="12.5476" x2="18.3388" y2="10.1854" width="0.254" layer="21" curve="-18.56522"/>
-<wire x1="18.3388" y1="10.1854" x2="21.2344" y2="9.652" width="0.254" layer="21"/>
-<wire x1="21.2344" y1="9.652" x2="21.209" y2="7.1628" width="0.254" layer="21"/>
-<wire x1="21.209" y1="7.1628" x2="18.3896" y2="6.6294" width="0.254" layer="21"/>
-<wire x1="18.3896" y1="6.6294" x2="17.4244" y2="4.1402" width="0.254" layer="21" curve="-19.377573"/>
-<wire x1="17.4244" y1="4.1402" x2="18.9992" y2="1.778" width="0.254" layer="21"/>
-<wire x1="18.9992" y1="1.778" x2="17.2466" y2="0.0254" width="0.254" layer="21"/>
-<wire x1="17.2466" y1="0.0254" x2="14.9606" y2="1.6002" width="0.254" layer="21"/>
-<wire x1="14.9606" y1="1.6002" x2="13.97" y2="1.016" width="0.254" layer="21"/>
-<wire x1="13.97" y1="1.016" x2="12.1666" y2="5.3848" width="0.254" layer="21"/>
-<wire x1="9.0932" y1="5.3848" x2="12.1666" y2="5.3848" width="0.254" layer="21" curve="-304.090059"/>
-</package>
 </packages>
 <symbols>
 <symbol name="OSHW_LOGO">
@@ -33433,38 +33263,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </technologies>
 </device>
 <device name="X0750-NT" package="OSHW_8X750_NOTEXT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OSHW_LOGO_10MIL" prefix="LOGO">
-<gates>
-<gate name="G$1" symbol="OSHW_LOGO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="X1000-NT" package="OSHW_10X1000_NOTEXT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="X0200-NT" package="OSHW_10X200_NOTEXT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="X0350-NT" package="OSHW_10X350_NOTEXT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="X0500-NT" package="OSHW_10X500_NOTEXT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="X0750-NT" package="OSHW_10X750_NOTEXT">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -33986,7 +33784,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <attribute name="MFR-PART-NO" value="CBC3225T4R7MR"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="_jc" deviceset="C-US" device="M0805" value="10uF"/>
+<part name="C2" library="_jc" deviceset="C-US" device="M0805" value="4.7uF"/>
 <part name="C3" library="_jc" deviceset="C-US" device="M0805" value="10uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
@@ -34012,7 +33810,6 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="LOGO1" library="ohw-logo" deviceset="OSHW_LOGO_8MIL" device="X0100-NT" value="OSHW_LOGO_8MILX0100-NT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="LOGO2" library="ohw-logo" deviceset="OSHW_LOGO_10MIL" device="X0200-NT" value="OSHW_LOGO_10MILX0200-NT"/>
 <part name="SJ1" library="jumper" deviceset="SJ" device="" value="5V"/>
 <part name="R12" library="_jc" deviceset="R-US_" device="M0805" value="249K"/>
 <part name="JP1" library="SparkFun" deviceset="M02" device="LOCK" value="CAL"/>
@@ -34023,42 +33820,42 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R0" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D0" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D0" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R1" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D1" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D1" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R2" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D2" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D2" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R3" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D3" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D3" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R4" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D4" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D4" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R5" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D5" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D5" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R6" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D6" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D6" library="_jc" deviceset="LED" device="D0805A" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
 <part name="R7" library="_jc" deviceset="R-US_" device="M0805" value="1K"/>
-<part name="D7" library="_jc" deviceset="LED" device="M0805" value="Yel">
+<part name="D7" library="_jc" deviceset="LED" device="D0805" value="Yel">
 <attribute name="MFR" value="Lite-On"/>
 <attribute name="MFR-PART-NO" value="LTST-C171KYKT"/>
 </part>
@@ -34069,6 +33866,7 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </part>
 <part name="J1" library="_jc" deviceset="OST-TB-2" device="3.5MM" value="Ext Bat"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="LOGO2" library="ohw-logo" deviceset="OSHW_LOGO_8MIL" device="X0100-NT" value="OSHW_LOGO_8MILX0100-NT"/>
 </parts>
 <sheets>
 <sheet>
@@ -34160,7 +33958,6 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <attribute name="VALUE" x="43.18" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="137.16" y="116.84"/>
-<instance part="LOGO2" gate="G$1" x="68.58" y="17.78"/>
 <instance part="SJ1" gate="1" x="104.14" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.442" y="37.846" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="106.934" y="45.212" size="1.778" layer="96" rot="R90"/>
@@ -34261,6 +34058,7 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 </instance>
 <instance part="J1" gate="G$1" x="22.86" y="60.96"/>
 <instance part="GND8" gate="1" x="30.48" y="35.56"/>
+<instance part="LOGO2" gate="G$1" x="68.58" y="17.78"/>
 </instances>
 <busses>
 </busses>

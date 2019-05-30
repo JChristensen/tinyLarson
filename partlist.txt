@@ -1,6 +1,6 @@
 Partlist
 
-Exported from tinyLarson.sch at 5/22/2019 8:32 PM
+Exported from tinyLarson.sch at 5/30/2019 3:46 PM
 
 EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
 
@@ -10,15 +10,15 @@ Part     Value          Device                Package           Library  Sheet
 
 B1       2xAA           BATTERY-2AAEAGLE      EAGLE-12BH321P-GR _jc      1
 C1       100nF          C-USM0805             M0805             _jc      1
-C2       10uF           C-USM0805             M0805             _jc      1
+C2       4.7uF          C-USM0805             M0805             _jc      1
 C3       10uF           C-USM0805             M0805             _jc      1
-D0       Yel            LEDD0805              D0805             _jc      1
-D1       Yel            LEDD0805              D0805             _jc      1
-D2       Yel            LEDD0805              D0805             _jc      1
-D3       Yel            LEDD0805              D0805             _jc      1
-D4       Yel            LEDD0805              D0805             _jc      1
-D5       Yel            LEDD0805              D0805             _jc      1
-D6       Yel            LEDD0805              D0805             _jc      1
+D0       Yel            LEDD0805A             D0805A            _jc      1
+D1       Yel            LEDD0805A             D0805A            _jc      1
+D2       Yel            LEDD0805A             D0805A            _jc      1
+D3       Yel            LEDD0805A             D0805A            _jc      1
+D4       Yel            LEDD0805A             D0805A            _jc      1
+D5       Yel            LEDD0805A             D0805A            _jc      1
+D6       Yel            LEDD0805A             D0805A            _jc      1
 D7       Yel            LEDD0805              D0805             _jc      1
 D8       Red            LEDD0805              D0805             _jc      1
 ICSP     ICSP           AVR_SPI_PRG_62X3_LOCK 2X3_LOCK          _jc      1
