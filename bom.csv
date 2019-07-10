@@ -1,0 +1,23 @@
+Bill of Materials,,,,,
+Tiny Larson Scanner,,,,,
+by Jack Christensen,,,,,
+May-2019,,,,,
+https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ef0590339b,,,,,
+,,,,,
+Part,Qty,Mouser #,Description,Mfr. #,Manufacturer
+B1,1,12BH321P-GR,"Cylindrical Battery Contacts, Clips, Holders & Springs 2 ""AA"" PC LEADS BLK",12BH321P-GR,Eagle Plastic Devices
+C1,1,581-08053C104K,Multilayer Ceramic Capacitors MLCC - SMD/SMT 25V .1uF X7R 0805 10%TOL,08053C104KAT2A,AVX
+C2,1,963-EMK212ABJ475KG-T,Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 16VDC 4.7uF 10% X5R,EMK212ABJ475KG-T,Taiyo Yuden
+C3,1,963-LMK212BJ106KG-T,Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF 10V X5R +/-10% 0805 Gen Purp,LMK212BJ106KG-T,Taiyo Yuden
+D0-D7,8,859-LTST-C171KSKT,Standard LEDs - SMD Yellow Clear 587nm,LTST-C171KSKT,Lite-On
+D8,1,859-LTST-C171KRKT,Standard LEDs - SMD Red Clear 55MCD,LTST-C171KRKT,Lite-On
+J1,1,651-1984617,Fixed Terminal Blocks PT 1.5/2-3.5H 2POS HRZ 3.5mm SCREW,1984617,Phoenix Contact
+L1,1,963-CBC3225T4R7MR,Fixed Inductors 1210 4.7uH 130mOhms +/-20% 1010mA HiCur,CBC3225T4R7MR,Taiyo Yuden
+R0-R8,9,603-RC0805FR-071KL,Thick Film Resistors - SMD 1K OHM 1%,RC0805FR-071KL,Yageo
+R10,1,660-RK73H2ATTD9763F,Thick Film Resistors - SMD 1/4W 976K OHM 1%,RK73H2ATTD9763F,KOA Speer
+R11,1,660-RK73H2ATTD3093F,Thick Film Resistors - SMD 1/4W 309K OHM 1%,RK73H2ATTD3093F,KOA Speer
+R12,1,660-RK73H2ATTD2493F,Thick Film Resistors - SMD 1/4W 249K OHM 1%,RK73H2ATTD2493F,KOA Speer
+R9,1,603-RC0805FR-1310KL,Thick Film Resistors - SMD 10K OHM 1%,RC0805FR-1310KL,Yageo
+S1-S2,2,653-B3F-1020,Tactile Switches 6X6 Flat 5mm Btn Force 100g w/o Grd,B3F-1020,Omron
+U1,1,556-ATTINY84A-SSU,8-bit Microcontrollers - MCU 20MHz Ind. Grade,ATTINY84A-SSU,Microchip
+U2,1,579-MCP1640DT-I/CHY,Switching Voltage Regulators 500 kHz 300 mA Syn Boost Converter,MCP1640DT-I/CHY,Microchip
