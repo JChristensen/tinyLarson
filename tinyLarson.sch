@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -33877,11 +33878,18 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <text x="175.768" y="29.718" size="3.81" layer="94" ratio="12">Tiny Larson Scanner</text>
 <text x="175.768" y="24.638" size="2.54" layer="94" ratio="12">by Jack Christensen</text>
 <text x="262.128" y="6.858" size="2.54" layer="94" ratio="12">v1.0</text>
+<text x="191.008" y="6.858" size="2.54" layer="94" ratio="12">MIL-TFD-41</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
-<instance part="GND1" gate="1" x="40.64" y="35.56"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="GND1" gate="1" x="40.64" y="35.56" smashed="yes">
+<attribute name="VALUE" x="38.1" y="33.02" size="1.778" layer="96"/>
+</instance>
 <instance part="U2" gate="G$1" x="78.74" y="63.5" smashed="yes">
 <attribute name="NAME" x="71.12" y="53.34" size="1.778" layer="94"/>
 <attribute name="VALUE" x="79.756" y="53.34" size="1.778" layer="94"/>
@@ -33923,15 +33931,29 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <instance part="GND4" gate="1" x="96.52" y="35.56" smashed="yes">
 <attribute name="VALUE" x="93.98" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="VCC" x="111.76" y="76.2"/>
-<instance part="GND3" gate="1" x="162.56" y="35.56"/>
-<instance part="P+5" gate="VCC" x="162.56" y="58.42"/>
-<instance part="B1" gate="G$1" x="40.64" y="53.34">
+<instance part="P+3" gate="VCC" x="111.76" y="76.2" smashed="yes">
+<attribute name="VALUE" x="109.22" y="73.66" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND3" gate="1" x="162.56" y="35.56" smashed="yes">
+<attribute name="VALUE" x="160.02" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="VCC" x="162.56" y="58.42" smashed="yes">
+<attribute name="VALUE" x="160.02" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="B1" gate="G$1" x="40.64" y="53.34" smashed="yes">
 <attribute name="MFR" x="40.64" y="53.34" size="1.778" layer="96" display="off"/>
 <attribute name="MFR-PART-NO" x="40.64" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="45.72" y="63.5" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="ICSP" gate="G$1" x="149.86" y="45.72"/>
-<instance part="U1" gate="G$1" x="48.26" y="129.54"/>
+<instance part="ICSP" gate="G$1" x="149.86" y="45.72" smashed="yes">
+<attribute name="NAME" x="145.542" y="54.102" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.796" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="U1" gate="G$1" x="48.26" y="129.54" smashed="yes">
+<attribute name="NAME" x="48.26" y="162.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="162.56" size="1.778" layer="96"/>
+</instance>
 <instance part="P+2" gate="VCC" x="30.48" y="175.26" smashed="yes">
 <attribute name="VALUE" x="27.94" y="172.72" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -33949,15 +33971,19 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <instance part="GND14" gate="1" x="38.1" y="124.46" smashed="yes">
 <attribute name="VALUE" x="35.56" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="S1" gate="1" x="45.72" y="99.06">
+<instance part="S1" gate="1" x="45.72" y="99.06" smashed="yes">
 <attribute name="MFR" x="45.72" y="99.06" size="1.778" layer="96" display="off"/>
 <attribute name="MFR-PART-NO" x="45.72" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="39.37" y="96.52" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.91" y="102.235" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LOGO1" gate="G$1" x="55.88" y="17.78"/>
+<instance part="LOGO1" gate="G$1" x="55.88" y="17.78" smashed="yes"/>
 <instance part="GND2" gate="1" x="45.72" y="88.9" smashed="yes">
 <attribute name="VALUE" x="43.18" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="137.16" y="116.84"/>
+<instance part="GND7" gate="1" x="137.16" y="116.84" smashed="yes">
+<attribute name="VALUE" x="134.62" y="114.3" size="1.778" layer="96"/>
+</instance>
 <instance part="SJ1" gate="1" x="104.14" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.442" y="37.846" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="106.934" y="45.212" size="1.778" layer="96" rot="R90"/>
@@ -33966,15 +33992,22 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <attribute name="NAME" x="98.0186" y="46.99" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="93.218" y="46.99" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="JP1" gate="G$1" x="20.32" y="99.06"/>
-<instance part="S2" gate="1" x="20.32" y="139.7">
+<instance part="JP1" gate="G$1" x="20.32" y="99.06" smashed="yes">
+<attribute name="VALUE" x="17.78" y="93.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="17.78" y="104.902" size="1.778" layer="95"/>
+</instance>
+<instance part="S2" gate="1" x="20.32" y="139.7" smashed="yes">
 <attribute name="MFR" x="20.32" y="139.7" size="1.778" layer="96" display="off"/>
 <attribute name="MFR-PART-NO" x="20.32" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="13.97" y="137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="16.51" y="142.875" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND11" gate="1" x="20.32" y="124.46" smashed="yes">
 <attribute name="VALUE" x="17.78" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="27.94" y="88.9"/>
+<instance part="GND12" gate="1" x="27.94" y="88.9" smashed="yes">
+<attribute name="VALUE" x="25.4" y="86.36" size="1.778" layer="96"/>
+</instance>
 <instance part="R0" gate="G$1" x="167.64" y="132.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="169.1386" y="135.89" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="169.164" y="131.318" size="1.778" layer="96" rot="R270"/>
@@ -34056,9 +34089,14 @@ under CC BY-SA 4.0 http://creativecommons.org/licenses/by-sa/4.0/               
 <attribute name="MFR" x="104.14" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MFR-PART-NO" x="104.14" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J1" gate="G$1" x="22.86" y="60.96"/>
-<instance part="GND8" gate="1" x="30.48" y="35.56"/>
-<instance part="LOGO2" gate="G$1" x="68.58" y="17.78"/>
+<instance part="J1" gate="G$1" x="22.86" y="60.96" smashed="yes">
+<attribute name="NAME" x="17.78" y="66.802" size="1.778" layer="95"/>
+<attribute name="VALUE" x="17.018" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND8" gate="1" x="30.48" y="35.56" smashed="yes">
+<attribute name="VALUE" x="27.94" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="LOGO2" gate="G$1" x="68.58" y="17.78" smashed="yes"/>
 </instances>
 <busses>
 </busses>
